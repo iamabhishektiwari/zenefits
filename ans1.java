@@ -1,3 +1,19 @@
+
+
+/* Algorithms
+Cheak for the first element if there is a bracket the complement the brackets 
+till second element is reached and the cheak for the brackets in second element.
+if first element doesn't contain bracket the directly cheak for the second element
+if second element also doesnot contain brackets 
+print second
+then print first then print third
+
+if any of the first second or third contain brackets store them in another string and 
+recurse them to same method.
+this way reccursivly every element can be printed in inrder transversal.
+*/
+
+
 /* package codechef; // don't place package name! */
 
 import java.util.*;
